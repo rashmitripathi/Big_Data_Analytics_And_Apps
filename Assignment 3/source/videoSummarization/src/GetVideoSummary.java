@@ -64,10 +64,10 @@ public class GetVideoSummary extends HttpServlet{
 		System.out.println("Servlet input file-----------" + getServletContext().getRealPath("/"));		
 		
 		String path = request.getParameter("path");
-		path="E:/big data analytics/Lab Assignment 3/Image-Annotation/Clarifai/input/sample.mkv";
+		//path="E:/big data analytics/Lab Assignment 3/Image-Annotation/Clarifai/input/sample.mkv";
 		System.out.println("Path-----------"+path);
-		//Frames(path);
-       // MainFrames();	            
+		Frames(path);
+                MainFrames();	            
         
         final ClarifaiClient client = new ClarifaiBuilder("LlL6lZ3SFaKvLHvGON2PZoFquuN11_GRVXiQgVBn", "D-PPdr_skEpWP5HthjgljF5x2g3QFd_EZmVrLnJX")
                 .client(new OkHttpClient()) // OPTIONAL. Allows customization of OkHttp by the user
@@ -111,8 +111,7 @@ public class GetVideoSummary extends HttpServlet{
             //DisplayUtilities.displayName(image, "image" + i);
         }   
         
-        //Collections.sort(finalData);
-       // System.out.println("final Summary is"+Arrays.toString(map.toArray()));        	
+              	
 		
         request.setAttribute("summaryList", finalData);
         
