@@ -1,0 +1,47 @@
+{
+  "userSays": [
+    {
+      "id": "5338732a-81a0-4517-95ea-8ccd1eaa754b",
+      "data": [
+        {
+          "text": "Did you like video"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "43104883-34b3-4ece-bf86-801ee7256081",
+      "data": [
+        {
+          "text": "What can you say about the video"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "3466a9b2-81d1-41de-849c-0d81af5b70fd",
+  "name": "Video",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "It was enjoyable cartoon video. Do you want to know more?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,61 @@
+{
+  "userSays": [
+    {
+      "id": "9339cbe8-2ae2-4d70-b821-62d6dadf8fd6",
+      "data": [
+        {
+          "text": "hey"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ee71c622-a0c7-43cb-adeb-f5601a93808e",
+      "data": [
+        {
+          "text": "hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "da9d6cb2-049e-44cc-8cd6-10ebe6c5f135",
+      "data": [
+        {
+          "text": "Hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "99cffd2d-f5bd-40dd-aad2-045bf2cf77d6",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hi, I am your Video Summary assistant. What are you looking for?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

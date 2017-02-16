@@ -1,0 +1,49 @@
+{
+  "id": "122a4e83-d41f-40cc-9cdb-61d5a7462154",
+  "name": "VideoSummary",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "one",
+      "synonyms": [
+        "one",
+        "1",
+        "first",
+        "1st"
+      ]
+    },
+    {
+      "value": "ten",
+      "synonyms": [
+        "ten",
+        "10"
+      ]
+    },
+    {
+      "value": "top",
+      "synonyms": [
+        "top",
+        "firstmost",
+        "maximum"
+      ]
+    },
+    {
+      "value": "least",
+      "synonyms": [
+        "least",
+        "less used",
+        "not much used"
+      ]
+    },
+    {
+      "value": "summary",
+      "synonyms": [
+        "summary",
+        "summarize",
+        "sum up"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

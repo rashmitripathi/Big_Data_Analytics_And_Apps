@@ -1,0 +1,60 @@
+{
+  "userSays": [
+    {
+      "id": "f826afaa-ae22-4da5-8736-388135f605df",
+      "data": [
+        {
+          "text": "How was the video"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "474bbbe7-9933-41ba-9772-435036487725",
+      "data": [
+        {
+          "text": "What about the video"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bc3a27f0-4012-4fb3-a2eb-21b91ee57743",
+      "data": [
+        {
+          "text": "Did you see video"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "178943d1-d609-4c19-bf69-bb8b9948b243",
+  "name": "Video Initial Talk",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Yes I did watch video",
+            "It was fun watching cartoon video"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,49 @@
+{
+  "userSays": [
+    {
+      "id": "91d4199d-f325-4294-ac90-93711825c546",
+      "data": [
+        {
+          "text": "summary",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b4710422-e492-4e69-bfc2-2ff0c1936657",
+      "data": [
+        {
+          "text": "Summarize video for me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9befa95f-5db8-4575-8187-5f015e60f1a1",
+  "name": "Summary",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "summary",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Summary of the vedio is :  nature grass animal beautiful park wild outdoors summer landscape wood wildlife field mammal tree water jungle sun cute flora dawn blur no person flower garden leaf one daylight fair weather color people growth light fruit hayfield farm sky rural agriculture grassland pasture environment swimming fish leisure underwater portrait travel branch season desktop man sculpture adult winter snow woman sea face young head art countryside"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": []
+}

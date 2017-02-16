@@ -1,0 +1,39 @@
+{
+  "description": "Provide summary information about video",
+  "language": "en",
+  "enabledDomainFeatures": [
+    "smalltalk-domain-on",
+    "smalltalk-fulfillment-on"
+  ],
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "invocationName": "Video Summary",
+    "project": "umkcbigdataproje-1480836310196",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "922fbee3-bc12-4d26-acae-a3de65e9d1a8",
+        "signInRequired": false
+      }
+    ],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "authorizationUrl": "https://rashmiapp.herokuapp.com/webhook",
+      "grantType": "IMPLICIT_GRANT"
+    },
+    "voiceType": "FEMALE_1"
+  },
+  "defaultTimezone": "",
+  "webhook": {
+    "url": "https://rashmiapp.herokuapp.com/webhook",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": false
+  },
+  "isPrivate": false,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.2
+}

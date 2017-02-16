@@ -1,0 +1,53 @@
+{
+  "userSays": [
+    {
+      "id": "4f2412bc-5cf3-4e54-988b-f997fc8b5eac",
+      "data": [
+        {
+          "text": "what are top  @"
+        },
+        {
+          "text": "VideoSummary",
+          "alias": "count",
+          "meta": "@VideoSummary",
+          "userDefined": true
+        },
+        {
+          "text": " words found in the video summary"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6a5b6c57-275f-4423-954d-8f2f9c72c3a6",
+  "name": "Top words",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@VideoSummary",
+          "name": "count",
+          "value": "$count",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Top words found in video summary are animal garden park nature grass landscape grass. Do you like to know more?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": []
+}
