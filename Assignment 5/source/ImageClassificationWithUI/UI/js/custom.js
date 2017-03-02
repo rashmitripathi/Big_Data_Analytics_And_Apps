@@ -20,8 +20,11 @@ $(function () {
   $("#clk").on('click', function (event) {
     $('#txt_area').hide();
     $('#meow').show();
+       console.log("I am here");
     var tmp_img = document.createElement("img");
     tmp_img.src = 'http://'+location.host+'/'+$('#img_plc').attr('src'); 
+     console.log("I am here 1"+location.host);
+   
     var base64 = getBase64Image(tmp_img);
     $.ajax({
       type: "POST",
