@@ -1,0 +1,33 @@
+{
+  "id": "a90a47c3-b723-403e-a085-1b3cb9a97ffb",
+  "name": "cars",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "sports",
+      "synonyms": [
+        "sports"
+      ]
+    },
+    {
+      "value": "luxury",
+      "synonyms": [
+        "luxury"
+      ]
+    },
+    {
+      "value": "suv",
+      "synonyms": [
+        "suv"
+      ]
+    },
+    {
+      "value": "electric",
+      "synonyms": [
+        "electric"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}
