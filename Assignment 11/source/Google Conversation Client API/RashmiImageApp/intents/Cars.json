@@ -1,0 +1,81 @@
+{
+  "userSays": [
+    {
+      "id": "42b1bc20-fafb-414f-80ea-15a42518f385",
+      "data": [
+        {
+          "text": "show me "
+        },
+        {
+          "text": "sports",
+          "alias": "cars",
+          "meta": "@cars",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "89534833-d68e-4730-9226-6fc9c538e4af",
+      "data": [
+        {
+          "text": "clear",
+          "alias": "null",
+          "meta": "@screen",
+          "userDefined": false
+        },
+        {
+          "text": " the screen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "19ca6c9d-2622-486d-81b9-0f14fb3ca65b",
+      "data": [
+        {
+          "text": "show me cars"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "789e69a6-4582-4e3f-826c-950dd124c7e9",
+  "name": "Cars",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@screen",
+          "name": "null",
+          "value": "$null",
+          "isList": false
+        },
+        {
+          "dataType": "@cars",
+          "name": "cars",
+          "value": "$cars",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

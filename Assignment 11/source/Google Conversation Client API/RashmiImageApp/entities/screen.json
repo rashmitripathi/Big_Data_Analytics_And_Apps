@@ -1,0 +1,16 @@
+{
+  "id": "0ceb43f7-7178-4ad1-9dab-dc467d1bee34",
+  "name": "screen",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "clear",
+      "synonyms": [
+        "clear",
+        "empty"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}
